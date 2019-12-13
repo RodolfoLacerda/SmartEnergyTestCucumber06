@@ -13,8 +13,8 @@ module.exports = {
             webdriver: {
                 start_process: true,
                 server_path: chromedriver.path,
-                port: 4444,
-                cli_args: ['--port=4444']
+                port: 9515,
+                cli_args: ['--port=9515']
             },
             desiredCapabilities: {
                 browserName: 'chrome'
