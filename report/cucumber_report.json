@@ -24,7 +24,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000000000
             }
           },
           {
@@ -37,7 +37,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 15637000000000000,
+              "duration": 15786000000000000,
               "error_message": "Error while running \"waitForElementVisible\" command: Timed out while waiting for element <#busca-campo> to be present for 10000 milliseconds. - expected \u001b[0;32m\"visible\"\u001b[0m but got: \u001b[0;31m\"not found\"\u001b[0m\n    at Proxy.with (C:\\qaninja\\SmartEnergyTestCucumber06\\pages\\globo.js:5:14)\n    at World.<anonymous> (C:\\qaninja\\SmartEnergyTestCucumber06\\steps\\globo.js:7:22)"
             }
           },
@@ -49,7 +49,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 337000000000000
+              "duration": 370000000000000
             },
             "embeddings": [
               {
