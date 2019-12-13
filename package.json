@@ -10,14 +10,10 @@
   "author": "Fernando Papito",
   "license": "MIT",
   "devDependencies": {
-    
+    "chromedriver": "^79.0.0"
   },
   "dependencies": {
     "cucumber-expressions": "^8.2.1",
     "nightwatch-cucumber-editor": "^1.0.1"
   }
-
 }
-
-
-
