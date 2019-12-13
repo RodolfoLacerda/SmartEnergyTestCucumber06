@@ -25,7 +25,7 @@ AfterAll(async () => {
     reporter.generate({
       theme: 'bootstrap',
       jsonFile: 'report/cucumber_report.json',
-      output: 'report/cucumber_report.html',
+      output: 'tests_output/cucumber_report.xml',
       reportSuiteAsScenarios: true,
       launchReport: true,
       metadata: {
