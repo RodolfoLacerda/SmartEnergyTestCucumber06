@@ -271,8 +271,8 @@ pre {
           <a class="navbar-brand">Cucumberjs Report</a>
           <div class="project-name visible-md visible-lg">zombie-cucumber</div>
           <div class="label-container">
-            <span class="label label-success" title=scenarios>Passed: 0</span>
-            <span class="label label-danger" title=scenarios>Failed: 1</span>
+            <span class="label label-success" title=scenarios>Passed: 1</span>
+            <span class="label label-danger" title=scenarios>Failed: 0</span>
           </div>
         </div>
       </div>
@@ -280,7 +280,7 @@ pre {
 
     <div class="container">
 
-      <div class="generated-on">Fri Dec 13 2019 15:48:47 GMT-0300 (GMT-03:00)</div>
+      <div class="generated-on">Fri Dec 13 2019 18:16:55 GMT-0300 (GMT-03:00)</div>
 
       <div class="row">
         <div class="chart col-lg-6 col-md-6" id="piechart_features"></div>
@@ -342,9 +342,9 @@ pre {
                         <i class="glyphicon glyphicon-chevron-down"></i>
                         <b>Feature:</b>Globo
                         <span class="label-container">
+              <span class="label label-success"
+                                                         title="1 Scenarios Passed">1</span>
               
-              <span class="label label-danger"
-                                                         title="1 Scenarios Failed">1</span>
               
               
               
@@ -371,7 +371,7 @@ pre {
                                    href="#collapseScenariozombie_cucumber0_0">
                                     <div>
 
-                                        <div style="padding-right: 50px">
+                                        <div style="padding-right: 30px">
                                             <i class="glyphicon glyphicon-chevron-right"></i>
                                             <i class="glyphicon glyphicon-chevron-down"></i>
                                             <b>Scenario:</b>Cadastrar um empresa do tipo interna
@@ -379,12 +379,11 @@ pre {
                                         <div>
                             <span class="label-container">
                               <span class="label label-success"
-                                                               title="1 Steps Passed">1</span>
+                                                               title="2 Steps Passed">2</span>
                               
                               
                               
-                              <span class="label label-danger"
-                                                               title="1 Steps Failed">1</span>
+                              
                               
                             </span>
                                         </div>
@@ -406,8 +405,8 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-danger" title="Failed"><i
-                                            class="glyphicon glyphicon-remove"></i></span>
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
                                     
                                     
                                     <span class="text">
@@ -416,7 +415,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               259250m 
+                               81250m 
                               </span>
                             
                          
@@ -427,50 +426,6 @@ pre {
                       </span>
                                 
                                 
-
-                                    
-                                    <a href="#error0_01"
-                                       data-toggle="collapse" class="toggle">Show Error +</a>
-                                    <div id="error0_01"
-                                         class="collapse">
-                                        <pre class="info show-modal"
-                                             data-toggle="modal"
-                                             style="cursor: pointer"
-                                             data-target="#error-modal-0_01">
-                                            <br> Error while running "waitForElementVisible" command: Timed out while waiting for element (#busca-campo) to be present for 10000 milliseconds. - expected [0;32m"visible"[0m but got: [0;31m"not found"[0m
-    at Proxy.with (C:\qaninja\SmartEnergyTestCucumber06\pages\globo.js:5:14)
-    at World.(anonymous) (C:\qaninja\SmartEnergyTestCucumber06\steps\globo.js:7:22)</pre>
-                                    </div>
-
-                                <div class="modal fade" id="error-modal-0_01" tabindex="-1" role="dialog"
-                                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog modal-lg">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                        aria-label="Close"><span aria-hidden="true">&times;</span>
-                                                </button>
-                                                <h4 class="modal-title" id="error-modal-title">
-                                                    Error
-                                                </h4>
-                                            </div>
-                                            <div class="modal-body">
-                                                <h5>
-                                                    <pre><br>Error while running "waitForElementVisible" command: Timed out while waiting for element (#busca-campo) to be present for 10000 milliseconds. - expected [0;32m"visible"[0m but got: [0;31m"not found"[0m
-    at Proxy.with (C:\qaninja\SmartEnergyTestCucumber06\pages\globo.js:5:14)
-    at World.(anonymous) (C:\qaninja\SmartEnergyTestCucumber06\steps\globo.js:7:22)</pre>
-                                                </h5>
-                                            </div>
-
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-default" data-dismiss="modal">
-                                                    Close
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
 
                                     
 
@@ -498,7 +453,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               5533m 20s 
+                               7550m 
                               </span>
                             
                          
@@ -595,8 +550,8 @@ pre {
         google.load("visualization", "1", {packages: ["corechart"]});
         google.setOnLoadCallback(function() {drawChart({
                                                             "title" : "Features",
-                                                            "failed" : 1,
-                                                            "passed" : 0,
+                                                            "failed" : 0,
+                                                            "passed" : 1,
                                                             "notdefined" : 0,
                                                             "pending" : 0,
                                                             "skipped" : 0,
@@ -605,8 +560,8 @@ pre {
                                             });
         google.setOnLoadCallback(function() {drawChart({
                                                             "title" : "Scenarios",
-                                                            "failed" : 1,
-                                                            "passed" : 0,
+                                                            "failed" : 0,
+                                                            "passed" : 1,
                                                             "notdefined" : 0,
                                                             "pending" : 0,
                                                             "skipped" : 0,
