@@ -11,9 +11,6 @@
   "license": "MIT",
   "devDependencies": {
     "chromedriver": "^79.0.0",
-    "cucumber-html-reporter": "^5.0.2",
-    "cucumber-pretty": "^6.0.0",
-    "faker": "^4.1.0",
     "nightwatch": "^1.2.4",
     "nightwatch-api": "^2.3.0"
   },
@@ -23,8 +20,6 @@
   }
 
 }
-
-
 
 
 
