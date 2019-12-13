@@ -10,7 +10,6 @@
   "author": "Fernando Papito",
   "license": "MIT",
   "devDependencies": {
-    "chromedriver": "^79.0.0",
     "nightwatch": "^1.2.4",
     "nightwatch-api": "^2.3.0"
   },
