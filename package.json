@@ -11,7 +11,6 @@
   "license": "MIT",
   "devDependencies": {
     "chromedriver": "^79.0.0",
-    "cucumber": "^6.0.3",
     "cucumber-html-reporter": "^5.0.2",
     "cucumber-pretty": "^6.0.0",
     "faker": "^4.1.0",
