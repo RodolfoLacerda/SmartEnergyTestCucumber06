@@ -33,7 +33,7 @@ module.exports = {
             },
             webdriver: {
                 server_path: chromedriver.path,
-                port: 4444
+                port: 9515
             },
             desiredCapabilities: {
                 browserName: "chrome"
@@ -47,7 +47,7 @@ module.exports = {
             },
             webdriver: {
                 server_path: chromedriver.path,
-                port: 4444
+                port: 9515
             },
             desiredCapabilities: {
                 browserName: "chrome",
