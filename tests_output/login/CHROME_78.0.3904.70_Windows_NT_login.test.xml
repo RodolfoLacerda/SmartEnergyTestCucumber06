@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="login.login.test"
+    errors="0" failures="1" hostname="" id="" package="login" skipped="0"
+    tests="1" time="6.511" timestamp="">
+  
+    <testcase name="ACESSO AO SISTEMA SMARTYENERGY CADASTRO 01" classname="login.login.test" time="6.511" assertions="1">  <failure message="Timed out while waiting for element &lt;.MuiIconButton-edgeStart&gt; to be present for 3000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m">    at Object.ACESSOAOSISTEMASMARTYENERGYCADASTRO01 [as ACESSO AO SISTEMA SMARTYENERGY CADASTRO 01] (C:/qaninja/testefinalzombie/tests/login/login.test.js:9:14)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+<system-out>[[ATTACHMENT|./tests_output/screenshots/9ff1a212-1b70-465d-992a-cec765bc0bc2.png]][[ATTACHMENT|C:\qaninja\testefinalzombie\tests_output\login\login.test\ACESSO-AO-SISTEMA-SMARTYENERGY-CADASTRO-01_FAILED_Nov-05-2019-234212-GMT-0200.png]]</system-out>
+    <failure message="    at Object.ACESSOAOSISTEMASMARTYENERGYCADASTRO01 [as ACESSO AO SISTEMA SMARTYENERGY CADASTRO 01] (C:/qaninja/testefinalzombie/tests/login/login.test.js:9:14)">    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

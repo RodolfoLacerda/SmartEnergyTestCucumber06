@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="cadastro.novo_filme.test"
+    errors="0" failures="0" hostname="" id="" package="cadastro" skipped="0"
+    tests="2" time="6.371" timestamp="">
+  
+    <testcase name="quando eu faço o cadastro do filme" classname="cadastro.novo_filme.test" time="5.228" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="então devo ver o filme na lista" classname="cadastro.novo_filme.test" time="1.143" assertions="2">
+
+    
+<system-out>[[ATTACHMENT|./tests_output/screenshots/973e9c61-f7cf-4d51-a9fe-bb5c9ace5389.png]]</system-out>
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

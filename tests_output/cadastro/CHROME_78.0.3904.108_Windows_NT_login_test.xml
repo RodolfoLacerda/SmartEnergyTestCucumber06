@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="cadastro.login_test"
+    errors="0" failures="1" hostname="" id="" package="cadastro" skipped="0"
+    tests="1" time="24.75" timestamp="">
+  
+    <testcase name="smartyEnergy" classname="cadastro.login_test" time="24.75" assertions="1">  <failure message="Timed out while waiting for element &lt;.MuiIconButton-edgeStart&gt; to be present for 3000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m">    at Object.smartyEnergy (C:/qaninja/testefinalzombie/tests/cadastro/login_test.js:9:10)</failure>
+<system-out>[[ATTACHMENT|./tests_output/screenshots/6e13207c-2254-4eea-b6da-bff4cbd1f021.png]][[ATTACHMENT|C:\qaninja\testefinalzombie\tests_output\cadastro\login_test\smartyEnergy_FAILED_Dec-11-2019-101450-GMT-0200.png]]</system-out>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  Error: Error: connect ECONNREFUSED 127.0.0.1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1128:14)[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:93:5)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
